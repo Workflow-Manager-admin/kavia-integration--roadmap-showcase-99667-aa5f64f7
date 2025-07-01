@@ -315,8 +315,8 @@
 }
 .roadmap-eta-now {
   border-color: #E87A41;
-  background: linear-gradient(95deg, #FFD58077 36%, #fff 100%);
-  color: #CE6E31;
+  background: linear-gradient(95deg, rgba(255, 213, 128, 0.467) 36%, rgb(255, 255, 255) 100%);
+  color: #ce6e31;
 }
 .roadmap-eta-next {
   border-color: #FFD580;
