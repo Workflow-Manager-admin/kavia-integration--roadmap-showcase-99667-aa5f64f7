@@ -313,6 +313,21 @@
   color: #E87A41;
   transition: transform 0.13s, background 0.22s, border 0.16s;
 }
+/* Badge distinction for simple and complex features */
+.roadmap-eta-simple {
+  background: linear-gradient(100deg, #E4FFD3 60%, #fffffff8 100%);
+  border-color: #77e841;
+  color: #288727;
+  /* greenish badge, more optimistic */
+  font-weight: 800;
+}
+.roadmap-eta-complex {
+  background: linear-gradient(101deg, #ffe0e0 50%, #fff 100%);
+  border-color: #f66;
+  color: #842020;
+  /* reddish badge, subtly more intense for "complex" */
+  font-weight: 800;
+}
 
 /* Custom ETA badges for months */
 .roadmap-eta-july {
