@@ -23,7 +23,7 @@ function IntegrationsSlide() {
           <span className="company-logo-text">Kavia</span>
         </div>
       </div>
-      <h2 className="slide-title">Powerful Integrations</h2>
+      <h2 className="slide-title" style={{color: "#e87a41"}}>Powerful Integrations Coming Up!</h2>
       <div className="integrations-grid">
         {integrations.map((item) => (
           <div className="integration-cell" key={item.name}>
