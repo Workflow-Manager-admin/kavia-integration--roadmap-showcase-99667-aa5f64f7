@@ -313,21 +313,28 @@
   color: #E87A41;
   transition: transform 0.13s, background 0.22s, border 0.16s;
 }
-.roadmap-eta-now {
+
+/* Custom ETA badges for months */
+.roadmap-eta-july {
   border-color: #E87A41;
-  background: linear-gradient(95deg, rgba(255, 213, 128, 0.467) 36%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(97deg, #FFE7C3 50%, #FFF 100%);
   color: #ce6e31;
 }
-.roadmap-eta-next {
+.roadmap-eta-august {
   border-color: #FFD580;
-  background: linear-gradient(95deg, #FFF6E0 25%, #fff 100%);
+  background: linear-gradient(98deg, #FFF6E0 50%, #fff 100%);
   color: #B15B18;
 }
-.roadmap-eta-future {
-  border-color: #FFD580bb;
-  background: #FFFDFB;
-  color: #88897F;
-  opacity: 0.83;
+.roadmap-eta-september {
+  border-color: #8793ff;
+  background: linear-gradient(99deg, #F1F4FF 60%, #fff 100%);
+  color: #294186;
+}
+.roadmap-eta-july,
+.roadmap-eta-august,
+.roadmap-eta-september {
+  /* subtle shadow across all */
+  box-shadow: 0 2.5px 12px 0 #FFD58019, 0 0.5px 2px 0 #0001;
 }
 
 .roadmap-table-footer-divider {

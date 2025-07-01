@@ -6,9 +6,9 @@ Attempting to bind to HOST environment variable: 0.0.0.0
 If this was unintentional, check that you haven't mistakenly set it in your shell.
 Learn more here: https://cra.link/advanced-config
 
-(node:10475) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:11420) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-(node:10475) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:11420) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 Starting the development server...
 
 Compiled successfully!
@@ -23,13 +23,8 @@ To create a production build, use npm run build.
 
 webpack compiled successfully
 Compiling...
-Failed to compile.
-
-Module not found: Error: Can't resolve 'linear-gradient(95deg, rgba(255, 213, 128, 0.467) 36%, rgb(255, 255, 255) 100%)' in '/home/kavia/workspace/code-generation/kavia-integration--roadmap-showcase-99667-aa5f64f7/react_js_frontend/src'
-ERROR in ./src/App.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/App.css) 5:36-143
-Module not found: Error: Can't resolve 'linear-gradient(95deg, rgba(255, 213, 128, 0.467) 36%, rgb(255, 255, 255) 100%)' in '/home/kavia/workspace/code-generation/kavia-integration--roadmap-showcase-99667-aa5f64f7/react_js_frontend/src'
-
-webpack compiled with 1 error
+Compiled successfully!
+webpack compiled successfully
 Compiling...
 Compiled successfully!
 webpack compiled successfully

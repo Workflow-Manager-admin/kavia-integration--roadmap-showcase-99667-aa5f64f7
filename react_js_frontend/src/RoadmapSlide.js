@@ -4,75 +4,77 @@ import React from "react";
 function RoadmapSlide() {
   /**
    * Displays the product roadmap as a modern, professional table suitable for slide decks.
-   * Columns: Feature/Description, ETA (groups: Now, Next, Future).
+   * Columns: Feature/Description, ETA ("July", "August", "September" grouped by complexity).
    */
+  // Features grouped by complexity and assigned month ETA:
+  // July: Simpler features
+  // August: Medium complexity
+  // September: Complex/custom/enterprise features
   const roadmapRows = [
     {
       desc: "Jira: Requirements Sync",
-      eta: "Now"
+      eta: "July"
     },
     {
       desc: "Confluence/Notion Docs: Import & Sync",
-      eta: "Now"
-    },
-    {
-      desc: "Figma Integration (Enterprise)",
-      eta: "Now"
+      eta: "July"
     },
     {
       desc: "Gerrit, GitLab, Bitbucket: Code Import",
-      eta: "Now"
-    },
-    {
-      desc: "AWS Connect, Terraform Integration",
-      eta: "Now"
+      eta: "July"
     },
     {
       desc: "Integration: Code Review/Validation Tools",
-      eta: "Next"
+      eta: "August"
     },
     {
       desc: "AI-powered Refactor in Code Generation",
-      eta: "Next"
+      eta: "August"
     },
     {
       desc: "Live Code & Preview",
-      eta: "Next"
+      eta: "August"
     },
     {
       desc: "Native/Embedded Device Support",
-      eta: "Next"
+      eta: "August"
+    },
+    {
+      desc: "Figma Integration (Enterprise)",
+      eta: "September"
+    },
+    {
+      desc: "AWS Connect, Terraform Integration",
+      eta: "September"
     },
     {
       desc: "Smart Extraction: User Stories from Figma",
-      eta: "Future"
+      eta: "September"
     },
     {
       desc: "Enterprise Custom Plan-phase Refactoring",
-      eta: "Future"
+      eta: "September"
     },
     {
       desc: "Predefined Workflows: Plan · Design · Code",
-      eta: "Future"
+      eta: "September"
     },
     {
       desc: "Test Execution: Custom Tool Integration",
-      eta: "Future"
+      eta: "September"
     },
     {
       desc: "Test Case Export to Enterprise Tools",
-      eta: "Future"
+      eta: "September"
     }
   ];
 
-  // Use a modern ppt-deck-inspired table, minimal orange accent.
-  // We render a table with column headers, one row per feature.
-
   // Color helper for ETA badge
   const etaBadgeColor = (eta) => {
-    if (eta === "Now") return "roadmap-eta-now";
-    if (eta === "Next") return "roadmap-eta-next";
-    return "roadmap-eta-future";
+    if (eta === "July") return "roadmap-eta-july";
+    if (eta === "August") return "roadmap-eta-august";
+    if (eta === "September") return "roadmap-eta-september";
+    return "";
   };
 
   return (
